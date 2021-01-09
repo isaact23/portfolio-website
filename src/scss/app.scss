@@ -2,32 +2,41 @@ $backgroundColor: #333333;
 $panelColor: #cccccc;
 $shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-body {
-    background-color: $backgroundColor;
-}
+body { background-color: $backgroundColor; }
+img { width: 100%; }
 
-// Images must fill their containers
-img {
-    width: 100%;
-}
-
+// Intro section
 .card {
     background-color: $panelColor;
     float: left;
-    margin: 2%;
+    margin: 1% 2%;
     padding: 1%;
     border-radius: 10px;
     box-shadow: $shadow;
 }
 
-#header.card {
+#intro.card {
     width: 94%;
-    height: 12vh;
+}
+
+.introText {
+    width: 40%;
+    float: left;
+}
+
+.introImage {
+    width: 20%;
+    float: right;
+}
+
+.introImage img {
+    border-radius: 20px;
+    box-shadow: $shadow;
 }
 
 // Skills section
 
-#skills {
+#skills.card {
     width: 44%;
     height: 50vh;
 }
@@ -59,6 +68,23 @@ img {
 }
 
 .hackImg {
+    background-color: $backgroundColor;
+    margin: 1%;
+    padding: 1%;
+    width: 20%;
+    float: left;
+    border-radius: 10px;
+    box-shadow: $shadow;
+}
+
+// Unity 3D showcase section
+
+#unity.card {
+    width: 44%;
+    height: 50vh;
+}
+
+.unityImg {
     background-color: $backgroundColor;
     margin: 1%;
     padding: 1%;
