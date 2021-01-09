@@ -1,0 +1,69 @@
+$backgroundColor: #333333;
+$panelColor: #cccccc;
+$shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+body {
+    background-color: $backgroundColor;
+}
+
+// Images must fill their containers
+img {
+    width: 100%;
+}
+
+.card {
+    background-color: $panelColor;
+    float: left;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: $shadow;
+}
+
+#header.card {
+    width: 94%;
+    height: 12vh;
+}
+
+// Skills section
+
+#skills {
+    width: 44%;
+    height: 50vh;
+}
+
+.skillBox {
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: $shadow;
+}
+
+#python.skillBox { background-color: #ffeb00; }
+#java.skillBox { background-color: #a7876d; }
+#html.skillBox { background-color: #ea3737; }
+#javascript.skillBox { background-color: #ffff00; }
+#react.skillBox { background-color: #1de0e0; }
+#unity.skillBox { background-color: #dddddd; }
+#blender.skillBox { background-color: #ffa500; }
+#flutter.skillBox { background-color: #1d87ba; }
+
+// Hackathons section
+
+#hackathons.card {
+    width: 44%;
+    height: 50vh;
+}
+
+.hackImg {
+    background-color: $backgroundColor;
+    margin: 1%;
+    padding: 1%;
+    width: 20%;
+    float: left;
+    border-radius: 10px;
+    box-shadow: $shadow;
+}
