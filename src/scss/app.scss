@@ -34,6 +34,38 @@ img { width: 100%; }
     box-shadow: $shadow;
 }
 
+// Quick links section
+
+#links.card {
+    width: 44%;
+    height: 50vh;
+}
+
+.linkImg img {
+    margin: 1%;
+    width: 20%;
+    float: left;
+    border-radius: 15px;
+    box-shadow: $shadow;
+}
+
+// Unity 3D showcase section
+
+#unity.card {
+    width: 44%;
+    height: 50vh;
+}
+
+.unityImg {
+    background-color: $backgroundColor;
+    margin: 1%;
+    padding: 1%;
+    width: 20%;
+    float: left;
+    border-radius: 10px;
+    box-shadow: $shadow;
+}
+
 // Skills section
 
 #skills.card {
@@ -68,23 +100,6 @@ img { width: 100%; }
 }
 
 .hackImg {
-    background-color: $backgroundColor;
-    margin: 1%;
-    padding: 1%;
-    width: 20%;
-    float: left;
-    border-radius: 10px;
-    box-shadow: $shadow;
-}
-
-// Unity 3D showcase section
-
-#unity.card {
-    width: 44%;
-    height: 50vh;
-}
-
-.unityImg {
     background-color: $backgroundColor;
     margin: 1%;
     padding: 1%;

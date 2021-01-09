@@ -1,8 +1,14 @@
 import React from 'react';
 import personalImage from '../img/isaacthompson.jfif';
+// Links
+import linkedIn from '../img/links/linkedin.jfif';
+import devpost from '../img/links/devpost.png';
+// Hacks
 import hackDuke from '../img/hackathons/hackduke.png';
 import hackUMass from '../img/hackathons/hackumass.png';
 import newYearNewHack from '../img/hackathons/nynh.png';
+import nwHacks from '../img/hackathons/nwhacks.png';
+// Unity
 import iTakeStew from '../img/unity/itakestew.png';
 import flopp from '../img/unity/flopp.png';
 import stackCity from '../img/unity/stackcity.png';
@@ -24,6 +30,15 @@ class Home extends React.Component {
                     <div className="introImage">
                         <img src={personalImage} />
                     </div>
+                </div>
+                <div className="card" id="links">
+                    <h1>Quick links</h1>
+                    <a href="https://www.linkedin.com/in/isaact23/" target="_blank" rel="noreferrer">
+                        <div className="linkImg"><img src={linkedIn} alt="LinkedIn"/></div>
+                    </a>
+                    <a href="https://devpost.com/isaact23" target="_blank" rel="noreferrer">
+                        <div className="linkImg"><img src={devpost} alt="Devpost"/></div>
+                    </a>
                 </div>
                 <div className="card" id="unity">
                     <h1>Unity3D showcase</h1>
@@ -48,6 +63,7 @@ class Home extends React.Component {
                     <a href="https://devpost.com/software/placeholder-nbyseg" target="_blank" rel="noreferrer">
                         <div className="hackImg"><img src={newYearNewHack} alt="NewYearNewHack"/></div>
                     </a>
+                    <div className="hackImg"><img src={nwHacks} alt="nwHacks"/></div>
                 </div>
                 <div className="card" id="skills">
                     <h1>Tools I use</h1>
